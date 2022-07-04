@@ -1,16 +1,28 @@
-# curved_bottom_navigation
+# Curved Bottom Navigation Bar
 
-A new Flutter project.
+### Add Dependency
+```bash
+dependencies:
+  curved_navigation_bar: ^1.0.3 #latest version
+```
 
-## Getting Started
+### Code
+```dart
+Scaffold(
+  bottomNavigationBar: CurvedNavigationBar(
+    backgroundColor: Colors.blueAccent,
+    items: <Widget>[
+      Icon(Icons.add, size: 30),
+      Icon(Icons.list, size: 30),
+      Icon(Icons.compare_arrows, size: 30),
+    ],
+    onTap: (index) {
+      //Handle button tap
+    },
+  ),
+  body: Container(color: Colors.blueAccent),
+)
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Reference
+Pub.dev : [curved_navigation_var](https://pub.dev/packages/curved_navigation_bar)
