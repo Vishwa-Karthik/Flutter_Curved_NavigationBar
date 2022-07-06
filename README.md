@@ -5,6 +5,9 @@
 dependencies:
   curved_navigation_bar: ^1.0.3 #latest version
 ```
+## Sample
+<p><img align="center" src="https://github.com/Vishwa-Karthik/Flutter_Curved_NavigationBar/blob/master/1.gif" width=600 height=150 />
+<p/>
 
 ### Code
 ```dart
@@ -25,4 +28,4 @@ Scaffold(
 ```
 
 ### Reference
-Pub.dev : [curved_navigation_var](https://pub.dev/packages/curved_navigation_bar)
+Pub.dev : [curved_navigation_bar](https://pub.dev/packages/curved_navigation_bar)
